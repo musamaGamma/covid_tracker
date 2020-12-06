@@ -1,0 +1,27 @@
+.table {
+    margin-top: 1rem;
+    overflow: scroll;
+    height: 60vh;
+    color: #6a5d5d;
+    
+}
+.table::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .table {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  tr td {
+      padding: .5rem;
+  }
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+.table tr:nth-of-type(odd) {
+    background-color: #e7dfdf;
+}
